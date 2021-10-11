@@ -98,7 +98,7 @@ def sample_sequence(*, hparams, length, start_token=None,
                 tf.TensorShape([batch_size]),
                 tf.TensorShape([batch_size, None]),
             ],
-            back_prop=False,
+            #back_prop=False,
         )
 
         return tokens
